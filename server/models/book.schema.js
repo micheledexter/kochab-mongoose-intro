@@ -7,6 +7,6 @@ const bookSchema = new Schema({
 });
 
 // mongoose, please use 'book'
-// mongoose says, I automatically pluralize, you're now using books
+// mongoose says, I automatically pluralize, you're now using 'books'
 // ... you're welcome
 module.exports = mongoose.model('book', bookSchema);
